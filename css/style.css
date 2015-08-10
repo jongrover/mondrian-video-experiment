@@ -1,3 +1,40 @@
-body {
-  background: red;
+.container {
+   width: 600px;
+  margin: 0 auto;
 }
+
+.videoWrapper {
+  width: 600px;
+  height: 300px;
+  overflow: auto;
+  position: relative;
+  background: black;
+}
+
+.videoWrapper video {
+  position: absolute;
+  width: 405px;
+  height: 228px;
+  border: 2px solid white;
+}
+
+#one {
+  top: 0;
+  left: 0;
+}
+
+#two {
+  top: 0;
+  left: 405px;
+}
+
+#three {
+  top: 228px;
+  left: 0;
+}
+
+#four {
+  top: 228px;
+  left: 405px;
+}
+
